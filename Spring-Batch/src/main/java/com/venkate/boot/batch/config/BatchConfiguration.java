@@ -65,7 +65,7 @@ public class BatchConfiguration {
 	@Bean
 	public ItemProcessor<Product, Product> processor(){
 		
-		return (p)->{p.setPrice(p.getPrice()*0.9);
+		return (p)->{p.setPrice(p.getPrice()*0.9567);
 		return p;
 		};
 	}
